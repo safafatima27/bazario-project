@@ -1,11 +1,11 @@
 const heroBackground = document.querySelector(".hero-content");
 let heroContent = document.querySelector(".hero-content");
 let heroImg = [
-    '/hero-section.jpg',
-    '/kitchenWare.jpg',
-    '/menClothing.jpg',
-    '/skincare.jpg',
-    '/perfeume.jpg'
+    'hero-section.jpg',
+    'kitchenWare.jpg',
+    'menClothing.jpg',
+    'skincare.jpg',
+    'perfeume.jpg'
 ];
 let current = 0;
 const showSlide = (index) =>{
