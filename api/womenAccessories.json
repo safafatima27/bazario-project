@@ -1,0 +1,58 @@
+[
+    {
+        "id": 13,
+        "name": "Golden Earring",
+        "price": 2050.00,
+        "category": "Women Accessories",
+        "description": "Small women earring",
+        "image": "products-images/accessory-01.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Gold Ring",
+        "price": 2750.00,
+        "category": "Women Accessories",
+        "description": "Golden color ring",
+        "image": "products-images/accessory-02.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Silver Earring",
+        "price": 1200.00,
+        "category": "Women Accessories",
+        "description": "Geometrical Design",
+        "image": "products-images/accessory-03.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Maroon Bangles",
+        "price": 400.00,
+        "category": "Women Accessories",
+        "description": "Vibrant set of bangles",
+        "image": "products-images/accessory-04.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Golden Necklace",
+        "price": 1625.00,
+        "category": "Women Accessories",
+        "description": "Thin modern necklace",
+        "image": "products-images/accessory-05.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Silver Bracelet",
+        "price": 1279.00,
+        "category": "Women Accessories",
+        "description": "Modern bracelet with mini butterflies",
+        "image": "products-images/accessory-06.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Multicolor Bangles",
+        "price": 1349.00,
+        "category": "Women Accessories",
+        "description": "Trendy bangles",
+        "image": "products-images/accessory-07.jpg"
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "id": 24,
+        "name": "Mandarin Collar Shirt",
+        "price": 1990.00,
+        "category": "Men Shirts",
+        "description": "Basic shirt perfect for any occasion",
+        "image": "products-images/shirt-01.jpg"
+    },
+    {
+        "id": 25,
+        "name": "Textured Basic Shirt",
+        "price": 2790.00,
+        "category": "Men Shirts",
+        "description": "shirt perfect for any casual vibe",
+        "image": "products-images/shirt-02.jpg"
+    },
+    {
+        "id": 26,
+        "name": "Checkered Shirt",
+        "price": 3050.00,
+        "category": "Men Shirts",
+        "description": "Crafted from soft, breathable cotton",
+        "image": "products-images/shirt-03.jpg"
+    },
+    {
+        "id": 27,
+        "name": "Printed Shirt",
+        "price": 6000.00,
+        "category": "Men Shirts",
+        "description": "Unique and eye-catching print",
+        "image": "products-images/shirt-04.jpg"
+    },
+    {
+        "id": 28,
+        "name": "Basic Denim Shirt",
+        "price": 6500.00,
+        "category": "Men Shirts",
+        "description": "e with high-quality cotton",
+        "image": "products-images/shirt-05.jpg"
+    },
+    {
+        "id": 29,
+        "name": "Resort Collar Shirt",
+        "price": 8450.00,
+        "category": "Men Shirts",
+        "description": "Made with 100% cotton",
+        "image": "products-images/shirt-06.jpg"
+    },
+    {
+        "id": 30,
+        "name": "Brown Denim Shirt",
+        "price": 9450.00,
+        "category": "Men Shirts",
+        "description": "Relaxed fit and durable cotton material",
+        "image": "products-images/shirt-07.jpg"
+    },
+    {
+        "id": 31,
+        "name": "Mock Neck Over-shirt",
+        "price": 5950.00,
+        "category": "Men Shirts",
+        "description": " Oversized fit and soft cotton fabric",
+        "image": "products-images/shirt-08.jpg"
+    }
+]

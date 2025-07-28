@@ -1,0 +1,26 @@
+[
+    {
+        "id": 74,
+        "name": "Brown Cushion Cover",
+        "price": 1250.00,
+        "category": "Home Decor",
+        "description": "Soft texture",
+        "image": "products-images/homeDecor-01.png"
+    },
+    {
+        "id": 75,
+        "name": "Shimmer Cushion Cover",
+        "price": 1390.00,
+        "category": "Home Decor",
+        "description": "Metallic sheen effect",
+        "image": "products-images/homeDecor-02.png"
+    },
+    {
+        "id": 76,
+        "name": "Cushion Filling",
+        "price": 550.00,
+        "category": "Home Decor",
+        "description": "20 W | 20 H inches",
+        "image": "products-images/homeDecor-03.png"
+    }
+]

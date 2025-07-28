@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bazario</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lilita+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rochester&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/src/style.css">  
+</head>
+<body>
+  <!-- header -->
+    <div class="header-container">
+        <header class="header-content">
+            <div class="header-left">
+              <a href="index.html">Bazario<span>.</span></a>
+            </div>
+            <div class="header-right">
+                <button class="signup-button">Sign up</button>
+                <button class="login-button">Log in</button>
+            </div>
+        </header>
+    </div>
+    <!-- <div class="header-container-two">
+        <div class="header-content-two">
+            <div class="left-header">
+              <div class="hamburger">
+                <img class="hamburger-icon" src="/public/Hamburger.svg" alt="">
+              </div>
+            </div>
+            <div class="middle-header">
+                <a href="#">Bazario<span>.</span></a>
+            </div>
+            <div class="right-header">
+                <img src="/public/search.svg" alt="">
+                <img src="/public/cart.svg" alt="">
+            </div>
+        </div>
+    </div> -->
+
+    <!-- navbar -->
+    <div class="nav-container">
+        <nav class="nav-content">
+            <div class="hamburger">
+              <img class="hamburger-icon" src="/public/Hamburger.svg" alt="">
+            </div>
+            <div class="nav-left">
+              <ul class="navbar">
+                <li class="dropdown">
+                  <a href="#" class="navlink">Womenswear &#11206;</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="dresses.html">Dresses</a></li>
+                    <li><a href="footwear.html">Footwear</a></li>
+                    <li><a href="accessories.html">Accessories</a></li>
+                    <li><a href="bags.html">Bags</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="navlink">Menswear &#11206;</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="shirts.html">Shirts</a></li>
+                    <li><a href="shoes.html">Shoes</a></li>
+                    <li><a href="jacket.html">Jackets</a></li>
+                    <li><a href="caps.html">Caps</a></li>
+                    <li><a href="hoodies.html">Hoodies</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="navlink">Beauty &#11206;</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="makeup.html">Makeup</a></li>
+                    <li><a href="skincare.html">Skin Care</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="navlink">Fragrances &#11206;</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="menFragrance.html">For Men</a></li>
+                    <li><a href="womenFragrance.html">For Women</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="navlink">Homeware &#11206;</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="furniture.html">Furniture</a></li>
+                    <li><a href="homeDecor.html">Home Decor</a></li>
+                    <li><a href="kitchenware.html">Kitchenware</a></li>
+                    <li><a href="organizer.html">Organizers</a></li>
+                  </ul>
+                </li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="nav-right">
+                <a href="cart.html">
+                  <img src="/public/cart.svg" alt="">
+                  <span>0</span>
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    
+    <!-- hero section -->
+    <div class="hero-container">
+          <!-- sidebar -->
+    <div class="sidebar-container">
+        <div class="sidebar-content">
+            <ul>
+                <li class="sidebar-dropdown">
+                    <div class="sidebar-main-heading">
+                        <a href="#" class="sidebar-navlink">Womenswear</a>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                  <ul class="sidebar-dropdown-menu">
+                    <li><a href="dresses.html">Dresses</a></li>
+                    <li><a href="footwear.html">Footwear</a></li>
+                    <li><a href="accessories.html">Accessories</a></li>
+                    <li><a href="bags.html">Bags</a></li>                  </ul>
+                </li>
+                <li class="sidebar-dropdown">
+                    <div class="sidebar-main-heading">
+                        <a href="#" class="sidebar-navlink">Menswear</a>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                  <ul class="sidebar-dropdown-menu">
+                    <li><a href="shirts.html">Shirts</a></li>
+                    <li><a href="shoes.html">Shoes</a></li>
+                    <li><a href="jacket.html">Jackets</a></li>
+                    <li><a href="caps.html">Caps</a></li>
+                    <li><a href="hoodies.html">Hoodies</a></li>
+                  </ul>
+                </li>
+                <li class="sidebar-dropdown">
+                    <div class="sidebar-main-heading">
+                        <a href="#" class="sidebar-navlink">Beauty</a>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                  <ul class="sidebar-dropdown-menu">
+                    <li><a href="makeup.html">Makeup</a></li>
+                    <li><a href="skincare.html">Skin Care</a></li>
+                  </ul>
+                </li>
+                <li class="sidebar-dropdown">
+                    <div class="sidebar-main-heading">
+                        <a href="#" class="sidebar-navlink">Fragrances</a>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                  <ul class="sidebar-dropdown-menu">
+                    <li><a href="menFragrance.html">For Men</a></li>
+                    <li><a href="womenFragrance.html">For Women</a></li>
+                  </ul>
+                </li>
+                <li class="sidebar-dropdown">
+                    <div class="sidebar-main-heading">
+                        <a href="#" class="sidebar-navlink">Homeware</a>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                  <ul class="sidebar-dropdown-menu">
+                    <li><a href="furniture.html">Furniture</a></li>
+                    <li><a href="homeDecor.html">Home Decor</a></li>
+                    <li><a href="kitchenware.html">Kitchenware</a></li>
+                    <li><a href="organizer.html">Organizers</a></li>
+                  </ul>
+                </li>
+                <li class="contact-us"><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>   
+        <div class="hero-content">
+            <div class="hero-center-container">
+                 <button id="prevBtn">&#10094;</button>
+                <div class="hero-center-content">            
+                    <h1 class="hero-title">Change your wardrobe. Find exciting goods.</h1>
+                    <p class="hero-desc">Explore the latest trends and timeless essentials tailored just for you. Discover style, comfort, and confidence — all in one place.</p>
+                    <div class="hero-link">
+                        <a class="hero-content-link" href="dresses.html">Women's cloths</a>
+                        <a class="hero-content-link" href="shoes.html">Men's shoes</a>
+                        <a class="hero-content-link" href="makeup.html">Makeup</a>
+                        <a class="hero-content-link" href="footwear.html">Footwear</a>
+                        <a class="hero-content-link" href="homeDecor.html">Home Decor</a>
+                    </div>
+                </div>
+                <button id="nextBtn">&#10095;</button>
+            </div>
+        </div>
+        
+    </div>
+
+   <!-- why choose us -->
+    <div class="why-choose-us-container">
+      <div class="why-choose-us-content">
+        <div class="why-choose-us-grid">
+          <div class="why-choose-us-card">
+            <div class="why-choose-us-img-container">
+              <img class="why-choose-us-img" src="/public/delivery.svg" alt="">
+            </div>
+            <div class="why-choose-us-info">
+              <h3 class="why-choose-us-title">Free and fast delivery</h3>
+              <p class="why-choose-us-desc">Free delivery for all orders over $120</p>
+            </div>
+          </div>
+          
+          <div class="why-choose-us-card">
+            <div class="why-choose-us-img-container">
+              <img class="why-choose-us-img" src="/public/money-back-guarantee.svg" alt="">
+            </div>
+            <div class="why-choose-us-info">
+              <h3 class="why-choose-us-title">Money back guarantee</h3>
+              <p class="why-choose-us-desc">Guarantee with in 30 dsys</p>
+            </div>
+          </div>
+      
+          <div class="why-choose-us-card">
+            <div class="why-choose-us-img-container">
+              <img class="why-choose-us-img" src="/public/money-return.svg" alt="">
+            </div>
+            <div class="why-choose-us-info">
+              <h3 class="why-choose-us-title">Easy 30 days return</h3>
+              <p class="why-choose-us-desc">Back return in 7 days</p>
+            </div>
+          </div>
+
+          <div class="why-choose-us-card">
+            <div class="why-choose-us-img-container">
+              <img class="why-choose-us-img" src="/public/headset.svg" alt="">
+            </div>
+            <div class="why-choose-us-info">
+              <h3 class="why-choose-us-title">24/7 customer service</h3>
+              <p class="why-choose-us-desc">Friendly 24/7 customer support</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- shop by category -->
+    <div class="shop-by-category-container">
+      <div class="shop-by-category-content">
+        <h2 class="shop-by-category-title">Shop by Category</h2>
+
+        <!-- Swiper container -->
+        <div class="swiper shop-category-swiper">
+          <div class="swiper-wrapper">
+          
+            <!-- Slides -->
+            <div class="swiper-slide shop-by-category-card">
+              <div class="shop-by-category-card-img-container">
+                <img src="/public/dressImg.jpg" alt="dresses" class="shop-by-category-card-img" />
+              </div>
+             <a class="shop-by-category-card-title" href="dresses.html">Dresses</a>
+            </div>
+          
+            <div class="swiper-slide shop-by-category-card">
+              <div class="shop-by-category-card-img-container">
+                <img src="/public/bowl.jpg" alt="dresses" class="shop-by-category-card-img" />
+              </div>
+             <a class="shop-by-category-card-title" href="kitchenware.html">Kitchenware</a>
+            </div>
+          
+            <div class="swiper-slide shop-by-category-card">
+              <div class="shop-by-category-card-img-container">
+                <img src="/public/makeup.jpg" alt="dresses" class="shop-by-category-card-img" />
+              </div>
+             <a class="shop-by-category-card-title" href="makeup.html">Makeup</a>
+            </div>
+          
+            <div class="swiper-slide shop-by-category-card">
+              <div class="shop-by-category-card-img-container">
+                <img src="/public/hoodies.jpg" alt="dresses" class="shop-by-category-card-img" />
+              </div>
+             <a class="shop-by-category-card-title" href="hoodies.html">Hoodies</a>
+            </div>
+          
+            <div class="swiper-slide shop-by-category-card">
+              <div class="shop-by-category-card-img-container">
+                <img src="/public/smartwatches.jpg" alt="dresses" class="shop-by-category-card-img" />
+              </div>
+             <a class="shop-by-category-card-title" href="smartwatch.html">Smartwatch</a>
+            </div>
+          
+            <div class="swiper-slide shop-by-category-card">
+              <div class="shop-by-category-card-img-container">
+                <img src="/public/skincare.jpg" alt="dresses" class="shop-by-category-card-img" />
+              </div>
+             <a class="shop-by-category-card-title" href="skincare.html">Skincare</a>
+            </div>
+          
+            <div class="swiper-slide shop-by-category-card">
+              <div class="shop-by-category-card-img-container">
+                <img src="/public/perfeume.jpg" alt="dresses" class="shop-by-category-card-img" />
+              </div>
+             <a class="shop-by-category-card-title" href="menFragrance.html">Men Fragrance</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer-container">
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="footer-main">
+                    <a href="">Bazario<span>.</span></a>
+                    <p>
+                        Your number one site for selling and buying
+                        clothes, cosmetics and home goods.
+                    </p>
+                </div>
+                <div class="footer-newsletter">
+                    <p>Join our newsletter</p>
+                    <div class="email-container">
+                        <input type="text" placeholder="Enter your e-mail">
+                        <div class="arrow-buuton"><img src="/public/arrow.svg"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-grid">
+                    <!-- column 1 -->
+                    <div class="footer-grid-column">
+                        <div class="footer-grid-heading">
+                            Buy
+                        </div>
+                        <ul class="fotter-grid-link">
+                            <li>
+                                <a href="">Create a profile</a>
+                            </li>
+                            <li>
+                                <a href="">Set up payment type</a>
+                            </li>
+                            <li>
+                                <a href="">Inbox</a>
+                            </li>
+                        </ul>
+                    </div>
+                     <!-- column 2 -->
+                <div class="footer-grid-column">
+                    <div class="footer-grid-heading">
+                        Help
+                    </div>
+                    <ul class="fotter-grid-link">
+                        <li>
+                            <a href="">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="">Customer service</a>
+                        </li>
+                        <li>
+                            <a href="">How to guides</a>
+                        </li>
+                        <li>
+                            <a href="">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- column 3 -->
+                <div class="footer-grid-column">
+                    <div class="footer-grid-heading">
+                        Sell
+                    </div>
+                    <ul class="fotter-grid-link">
+                        <li>
+                            <a href="">Create a profile</a>
+                        </li>
+                        <li>
+                            <a href="">List your items</a>
+                        </li>
+                        <li>
+                            <a href="">Boost your item</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- column 4 -->
+                <div class="footer-grid-column">
+                    <ul class="fotter-grid-link">
+                        <li>
+                            <a href="">Terms and conditions</a>
+                        </li>
+                        <li>
+                            <a href="">Privacy policy</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                <div class="social">
+                    <div class="follow">
+                        Follow us
+                    </div>
+                    <div class="social-link">
+                        <a class="icon-social" href="">
+                            <img src="/public/instagram.svg" alt="">
+                        </a >
+                        <a class="icon-social" href="">
+                            <img src="/public/linkedin.svg" alt="">
+                        </a>
+                        <a class="icon-social" href="">
+                            <img src="/public/Microsoft.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+
+    
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="/js/index.js"></script>
+<script type="module" src="/src/main.js"></script>
+<script src="/js/heroSlide.js"></script>
+</body>
+</html>

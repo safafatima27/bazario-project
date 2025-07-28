@@ -1,0 +1,34 @@
+[
+    {
+        "id": 38,
+        "name": "Quilted Jacket",
+        "price": 8030.00,
+        "category": "Men Jackets",
+        "description": "Quilted jacket with corduroy collar",
+        "image": "products-images/jacket-01.jpg"
+    },
+    {
+        "id": 39,
+        "name": "Regular Puffer",
+        "price": 10900.00,
+        "category": "Men Jackets",
+        "description": "Soft puffer jacket with high neck",
+        "image": "products-images/jacket-02.jpg"
+    },
+    {
+        "id": 40,
+        "name": "Corduroy Puffer Jacket",
+        "price": 13050.00,
+        "category": "Men Jackets",
+        "description": " with hood, elasticated cuffs",
+        "image": "products-images/jacket-03.jpg"
+    },
+    {
+        "id": 41,
+        "name": "Hooded Gilet",
+        "price": 16300.00,
+        "category": "Men Jackets",
+        "description": " Sleeveless with detachable hood",
+        "image": "products-images/jacket-04.jpg"
+    }
+]

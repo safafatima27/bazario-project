@@ -1,0 +1,18 @@
+[
+    {
+        "id": 81,
+        "name": "Glass Jars",
+        "price": 800.00,
+        "category": "Organizer",
+        "description": "Borosilicate Glass Jars with Acacia Lid",
+        "image": "products-images/organizer-01.jpg"
+    },
+    {
+        "id": 82,
+        "name": "Food Storage Containers",
+        "price": 1200.00,
+        "category": "Organizer",
+        "description": "5 Pieces Stainless Steel",
+        "image": "products-images/organizer-02.jpg"
+    }
+]

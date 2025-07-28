@@ -1,0 +1,26 @@
+[
+    {
+        "id": 62,
+        "name": "Black Ice",
+        "price": 2250.00,
+        "category": "Men Fragrance",
+        "description": "a woody-musky fragrance",
+        "image": "products-images/menFragrance-01.jpg"
+    },
+    {
+        "id": 63,
+        "name": "Janan Tobacco",
+        "price": 3790.00,
+        "category": "Men Fragrance",
+        "description": "Warm and inviting fragrance",
+        "image": "products-images/menFragrance-02.jpg"
+    },
+    {
+        "id": 64,
+        "name": "Pure Musk",
+        "price": 2750.00,
+        "category": "Men Fragrance",
+        "description": "fragrance crafted to captivate",
+        "image": "products-images/menFragrance-03.jpg"
+    }
+]

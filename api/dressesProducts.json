@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Ice Blue Dress",
+        "price": 9000.00,
+        "category": "Dresses",
+        "description": "2PC Cotton Stitched",
+        "image": "products-images/dresses-01.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Green Embroided Dress",
+        "price": 11000.00,
+        "category": "Dresses",
+        "description": "3PC Stitched",
+        "image": "products-images/dress-02.jpg"
+    },
+    {
+        "id": 3,
+        "name": "White Embroided Dress",
+        "price": 12200.00,
+        "category": "Dresses",
+        "description": "3PC Organza Stitched",
+        "image": "products-images/dress-03.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Green Printed Dress",
+        "price": 6000.00,
+        "category": "Dresses",
+        "description": "2PC Silk Printed Stitched",
+        "image": "products-images/dress-04.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Blue Lawn Dress",
+        "price": 12000.00,
+        "category": "Dresses",
+        "description": "2PC Lawn Stitched",
+        "image": "products-images/dress-05.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Black Organza Dress",
+        "price": 8450.00,
+        "category": "Dresses",
+        "description": "3PC Embroided Unstitched",
+        "image": "products-images/dress-06.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Lilac Organza Dress",
+        "price": 9450.00,
+        "category": "Dresses",
+        "description": "3PC Embroided Unstitched",
+        "image": "products-images/dress-07.jpg"
+    }
+]
